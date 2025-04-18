@@ -17,11 +17,11 @@ class FeatureResource extends JsonResource
     {
         return [
             'image'               => $this->image ?? null,
-            'route_name'          => $this->route_name,
-            'name'                => $this->name,
-            'description'         => $this->description,
-            'required_credits'    => $this->required_credits,
-            'active'              => $this->active
+            // 'route_name'          => $this->route_name,
+            // 'name'                => $this->name,
+            // 'description'         => $this->description,
+            // 'required_credits'    => $this->required_credits,
+            // 'active'              => $this->active
         ];
     }
 }
